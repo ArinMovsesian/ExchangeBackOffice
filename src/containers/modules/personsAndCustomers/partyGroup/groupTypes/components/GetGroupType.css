@@ -1,0 +1,9 @@
+.group-type .k-grid-content{
+    height: calc(100%);
+}
+.group-type .k-grid-header {
+    height: 32px;
+}
+.group-type .k-grid-content {
+    height: calc(100% - 32px) !important;
+}

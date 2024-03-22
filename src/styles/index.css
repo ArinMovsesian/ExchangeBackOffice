@@ -1,0 +1,159 @@
+@import 'normalize.css';
+
+* {
+    outline: none !important;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: Muli, Roboto, Helvetica Neue, Arial, sans-serif;
+    background-color: #262933;
+}
+
+body {
+    /* font-size: 14px; */
+    line-height: 1.4;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    direction:rtl;
+    float:right;
+    
+}
+.height-page {
+    height: 100%;
+}
+.loading-page {
+    background-color: #2d323e;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* left: 10rem; */
+    z-index: 12;
+    right: 0;
+    top: 0rem;
+}
+.text-loading-bar{
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-family: "isw" !important;
+}
+.progress-loading-bar{
+    width: 80px !important;
+    height: 80px !important;
+    margin: 15px !important;
+}
+h1, .h1 {
+    font-size: 24px;
+}
+
+h2, .h2 {
+    font-size: 20px;
+}
+
+h3, .h3 {
+    font-size: 16px;
+}
+
+h4, .h4 {
+    font-size: 15px;
+}
+
+h5, .h5 {
+    font-size: 13px;
+}
+
+h6, .h6 {
+    font-size: 12px;
+}
+
+.ps > .ps__rail-y,
+.ps > .ps__rail-x {
+    z-index: 99;
+}
+
+a[role=button] {
+    text-decoration: none;
+}
+
+/* Medium Devices, Desktops Only */
+@media only screen and (min-width: 992px) {
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar:hover {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(0, 0, 0, 0.06);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border: 2px solid transparent;
+        box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.24);
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.37);
+        border-radius: 20px;
+    }
+}
+
+form label {
+    z-index: 99;
+}
+
+@import 'print.css';
+
+@import 'tables.css';
+
+@import 'react-table.css';
+
+@import 'prism.css';
+
+@import 'fuse-helpers.css';
+
+
+
+
+.ulAutoHeaderTemplate, .ulAutoTemplate{
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    position: unset
+
+}
+.ulAutoHeaderTemplate .liAutoHeaderTemplate{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    border-right: solid 1px lightgray;
+    padding: 5px 0;
+    font-weight: bold
+}
+
+
+.ulAutoTemplate .liAutoTemplate{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+  
+  
+
+}
+
+.ulAutoTemplate .liAutoTemplate:first-child{
+    /* width:300px; based on how much width this div should have */
+   /* color: red; */
+  font-size: inherit;
+  font-size:10px;
+  word-break: break-all
+}

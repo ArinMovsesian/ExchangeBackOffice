@@ -1,0 +1,20 @@
+.party-group .height-search{
+    height: 129px !important;
+   
+  }
+  .party-group .height-content-grid{
+    height: calc(100% - 72px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .party-group .height-content-grid .k-auto-scrollable{
+    height: calc(100% - 106px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .party-group .height-open-grid{
+    height: calc(100% - 170px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .party-group .height-open-grid .k-auto-scrollable{
+    height: calc(100% - 138px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }

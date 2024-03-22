@@ -1,0 +1,8 @@
+.menu-page .height-search{
+    height: 130px !important;
+}
+
+.menu-page .height-open-grid{
+    height: calc(100% - 130px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

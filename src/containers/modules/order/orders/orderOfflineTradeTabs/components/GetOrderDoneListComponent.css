@@ -1,0 +1,42 @@
+.done-orders .height-search{
+  height: 360px;
+  overflow:inherit !important
+}
+.done-orders .height-open-grid{
+  height: calc(100% - 400px) !important;
+  overflow: inherit;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+.done-orders .k-grid-header{
+  height: 32px;
+}
+.done-orders .k-grid-footer{
+    height: 70px;
+}
+.done-orders .k-grid-footer tbody tr td div:first-child{
+  margin-bottom: 15px;
+} 
+.done-orders .k-grid-footer tbody tr td div{
+  text-align: left !important;
+
+}
+.done-orders .k-grid-content{
+  height: calc(100% - 175px) !important;
+}
+
+
+#backToWaitingList {
+background-color: #fa9a00 !important;
+padding: 10px 20px;
+border-radius: 5px;
+color: #FFF;
+margin: 5px;
+}
+#backToWaitingList:hover{
+background-color: #f6a000 !important
+}
+#backToWaitingList:disabled{
+background-color: #917c0759 !important;
+cursor: default;
+} 

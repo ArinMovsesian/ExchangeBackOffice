@@ -1,0 +1,16 @@
+.back-button{
+ 
+    left: 2rem; 
+    color:#ffffff;
+    cursor:pointer
+}
+.back-title{
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 5px;
+}
+.back-button-with-add-button {
+    left: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    padding-top: 5px;
+}

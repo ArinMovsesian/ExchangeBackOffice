@@ -1,0 +1,24 @@
+
+
+
+
+.voucherTypeManagement .k-grid-header{
+    height: 32px;
+}
+.voucherTypeManagement .k-grid-footer{
+    height: 70px;
+}
+.voucherTypeManagement .k-grid-footer tbody tr td div:first-child{
+    /*margin-bottom: 15px;*/
+}
+.voucherTypeManagement .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.voucherTypeManagement .k-grid-content{
+    height: calc(100% - 80px) !important;
+    /*overflow: scroll;*/
+}
+.voucherTypeManagement .height-content-grid{
+    height: calc(100% - 4px) !important;
+}

@@ -1,0 +1,8 @@
+.detail-ledger .height-search{
+    height: 130px !important;
+    overflow: inherit;
+}
+.detail-ledger .height-open-grid{
+    height: calc(100% - 130px) !important;
+    overflow: inherit;
+}

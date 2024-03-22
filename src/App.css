@@ -1,0 +1,578 @@
+
+@font-face {
+  font-family: 'isw';
+  src: url('../src/utils/fonts/IRANSans11.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: 'isw';
+} 
+.App {
+  scrollbar-width: 5px;
+  
+  text-align: center;
+  font-family:'isw';
+  background-color:"#3c4252";
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.light-blue{
+  color:cornflowerblue
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rtl{
+  direction:rtl;
+  font-family:'isw'
+}
+.user .relative .flex .flex-col .items-center .justify-center .pt-24 .pb-64 .mb-32 .z-0{
+  background-color:"#3C4252",
+
+}
+.ListItem{
+font-family: 'isw'
+}
+.activeLinkOfSidebar {
+
+  width: "97%";
+  color: "#fff!important";
+  transition: "border-radius .15s cubic-bezier(0.4, 0, 0.2, 1)";
+  pointer-events: "none";
+  background-color: "#039be5";
+  border-radius: "20px 0 0 20px";
+}
+
+.k-pager-numbers .k-state-selected {
+  color: #fff !important;
+  background-color: #039be5;
+  border-radius: 50%;
+}
+
+.k-pager-numbers .k-link:hover, .k-pager-numbers .k-link.k-state-hover {
+  color: #039be5 !important;
+  background-color: #ededed;
+  border-radius: 50%;
+}
+
+.k-grid-header .k-i-sort-asc-sm, .k-grid-header .k-i-sort-desc-sm, .k-grid-header .k-sort-order {
+  color: #039be5;
+
+}
+.k-pager-numbers .k-link {
+  color: #3c4252;
+}
+.error-validation{
+color:red;
+font-size:11px;
+margin-top:2px;
+margin-bottom:0;
+}
+.k-pager-numbers .k-link {
+  color: #ffffff;
+}
+.k-pager-numbers .k-link {
+  color: #2196f3;
+}
+.margin-right-4{
+  margin-right:4px;
+}
+.push-left{
+  float:left;
+}
+.successButton{
+  color: #fff !important;
+  background-color: #079169 !important;
+  
+}
+.successButton:hover{
+  color: #fff !important;
+  background-color: #2f6e69  !important;
+}
+.printBtn{
+  background-color: rgb(214, 162, 85) !important;
+}
+.printBtn:hover{
+  background-color: rgb(214, 162, 85) !important;
+}
+.cursor-pointer{
+  cursor: pointer  !important;
+}
+.btn-filter{
+  width: 30px;
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #2A3F54;
+  border-color: #2A3F54;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+  color: #ffffff;
+}
+.panel-search{
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #eeeeee;
+}
+.panel-filter{
+  padding-top: 15px;
+  margin: 0 0 0px 0px;
+}
+.label-filter{
+  right: 0;
+}
+.overflow-page{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.k-grid {
+  border-color: rgba(0,0,0,0.08);
+  color: #121212;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+.k-list-container .k-nodata .k-button, .k-dropdown .k-dropdown-wrap, .k-button, .k-button-group.k-state-disabled .k-button:not(.k-state-active), .k-button-group .k-state-disabled:not(.k-state-active), .k-toolbar .k-split-button .k-button, .k-spreadsheet-filter, .k-pivot-toolbar .k-button, .k-fieldselector .k-list li.k-item, .k-colorpicker .k-picker-wrap, .k-combobox .k-select, .k-datepicker .k-select, .k-timepicker .k-select, .k-datetimepicker .k-select, .k-dateinput .k-select, .k-dropdowntree .k-dropdown-wrap, .k-editor .k-editor-toolbar-wrap a.k-tool, .k-ct-popup .k-editor-toolbar a.k-tool, .editorToolbarWindow.k-header.k-window-content a.k-tool, .k-numerictextbox .k-select, .k-handle, .k-map .k-navigator, .k-gantt-views li, .k-scheduler-navigation .k-nav-today, .k-scheduler-navigation .k-nav-prev, .k-scheduler-navigation .k-nav-next, .k-scheduler-views li, .k-scheduler-footer li {
+  border-color: rgba(0,0,0,0.08);
+  color: #656565;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(#f6f6f6,#f1f1f1);
+  background-image: linear-gradient(#ffffff,#ffffff);
+}
+.k-dropdown .k-dropdown-wrap:hover, .k-dropdown .k-dropdown-wrap.k-state-hover, .k-button:hover, .k-button.k-state-hover, .k-action-buttons .k-button:hover, .k-action-buttons .k-button.k-state-hover, .k-toolbar .k-split-button .k-button:hover, .k-toolbar .k-split-button .k-button.k-state-hover, .k-spreadsheet-filter:hover, .k-pivot-toolbar .k-button:hover, .k-pivot-toolbar .k-button.k-state-hover, .k-fieldselector .k-list li.k-item:hover, .k-fieldselector .k-list li.k-item.k-state-hover, .k-colorpicker .k-state-hover, .k-combobox>:hover .k-select, .k-combobox .k-state-hover .k-select, .k-datepicker:hover .k-select, .k-datepicker .k-state-hover .k-select, .k-timepicker:hover .k-select, .k-timepicker .k-state-hover .k-select, .k-datetimepicker:hover .k-select, .k-datetimepicker .k-state-hover .k-select, .k-dateinput .k-select:hover, .k-dateinput .k-select>.k-state-selected, .k-dateinput .k-select>.k-state-active, .k-dateinput .k-state-hover .k-select, .k-dropdowntree .k-dropdown-wrap:hover, .k-dropdowntree .k-dropdown-wrap.k-state-hover, .k-editor .k-editor-toolbar-wrap a.k-tool:hover, .k-editor .k-editor-toolbar-wrap a.k-tool.k-state-hover, .k-ct-popup .k-editor-toolbar a.k-tool:hover, .k-ct-popup .k-editor-toolbar a.k-tool.k-state-hover, .editorToolbarWindow.k-header.k-window-content a.k-tool:hover, .editorToolbarWindow.k-header.k-window-content a.k-tool.k-state-hover, .k-numerictextbox .k-select:hover, .k-numerictextbox .k-select>.k-state-selected, .k-numerictextbox .k-select>.k-state-active, .k-numerictextbox .k-state-hover .k-select, .k-handle:hover, .k-gantt-views li.k-state-hover, .k-scheduler-navigation .k-nav-today:hover, .k-scheduler-navigation .k-nav-prev:hover, .k-scheduler-navigation .k-nav-next:hover, .k-scheduler-views li:hover, .k-scheduler-footer li:hover {
+  border-color: rgba(0,0,0,0.23);
+  color: #656565;
+  background-color: #ededed;
+  background-image: -webkit-linear-gradient(#ededed,#e8e8e8);
+  background-image: linear-gradient(#ffffff,#ffffff);
+}
+
+.k-textbox-container{
+  padding-top: 8px !important;
+}
+.k-textbox-container>.k-label{
+  top: 13px !important;
+}
+.k-rtl .k-textbox-container>.k-label, .k-rtl .k-textbox-container.k-state-focused>.k-label, .k-textbox-container[dir='rtl']>.k-label, .k-textbox-container[dir='rtl'].k-state-focused>.k-label {
+ 
+ 
+  background-color: white;
+ 
+  -webkit-transform: translate(8px, -20px) translate(1px, -1.4714285714em) translate(12.5%, -9.375%) scale(.75);
+  transform: translate(8px, 0px) translate(0px, -1.22em) translate(1.5%, -2.375%) scale(.75) ;
+  background-color: white;
+  padding-right: 0px;
+  padding: 5px;
+
+  padding-bottom: 0 !important;
+  color: grey;
+ 
+}
+
+.k-list-container .k-nodata .k-button, .k-dropdown .k-dropdown-wrap, .k-button, .k-button-group.k-state-disabled .k-button:not(.k-state-active), .k-button-group .k-state-disabled:not(.k-state-active), .k-toolbar .k-split-button .k-button, .k-spreadsheet-filter, .k-pivot-toolbar .k-button, .k-fieldselector .k-list li.k-item, .k-colorpicker .k-picker-wrap, .k-combobox .k-select, .k-datepicker .k-select, .k-timepicker .k-select, .k-datetimepicker .k-select, .k-dateinput .k-select, .k-dropdowntree .k-dropdown-wrap, .k-editor .k-editor-toolbar-wrap a.k-tool, .k-ct-popup .k-editor-toolbar a.k-tool, .editorToolbarWindow.k-header.k-window-content a.k-tool, .k-numerictextbox .k-select, .k-handle, .k-map .k-navigator, .k-gantt-views li, .k-scheduler-navigation .k-nav-today, .k-scheduler-navigation .k-nav-prev, .k-scheduler-navigation .k-nav-next, .k-scheduler-views li, .k-scheduler-footer li {
+  color: #656565;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(#f6f6f6,#f1f1f1);
+  background-image: -webkit-linear-gradient(#ffffff,#ffffff);
+  background-image: linear-gradient(#ffffff,#ffffff);
+  padding: 5px;
+  border-radius: 3px;
+  border: 1.5px solid rgba(0,0,0,0.08);
+  display:inline-flex;
+  transition: padding-right 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,border-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,border-width 200ms cubic-bezier(0.0, 0, 0.2, 1)
+}
+.k-dropdown .k-dropdown-wrap:hover  {
+  border: 1.5px solid rgb(33, 150, 243);
+  /* border: 2px; */
+  color: #656565;
+  background-color: #ededed;
+  background-image: -webkit-linear-gradient(#ededed,#e8e8e8);
+  background-image: -webkit-linear-gradient(#ffffff,#ffffff);
+  background-image: linear-gradient(#ffffff,#ffffff);
+}
+.not-aggregate .k-grid-header{
+  height: 32px;
+}
+.not-aggregate .k-grid-content{
+  height: calc(100% - 73px) !important;
+}
+
+.list-account-bank .k-dropdown, .cost-center .k-dropdown {
+  width: 100%;
+}
+[dir='rtl']>.k-multiselect-wrap, .k-rtl .k-multiselect-wrap {
+  
+  padding-right: 0;
+  padding: 5px;
+}
+.k-autocomplete, .k-dateinput-wrap, .k-dropdown-wrap, .k-picker-wrap, .k-multiselect-wrap, .k-numeric-wrap {
+  border-radius: 4px;
+  padding: 0;
+  width: 100%;
+  /* border-color: #2196f3; */
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  position: relative;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+  cursor: default;
+  outline: 0;
+}
+.k-autocomplete.k-state-hover, .k-combobox>:hover, .k-combobox .k-state-hover, .k-datepicker:hover, .k-datepicker .k-state-hover, .k-timepicker:hover, .k-timepicker .k-state-hover, .k-datetimepicker:hover, .k-datetimepicker .k-state-hover, .k-dateinput .k-state-hover, .k-multiselect-wrap:hover, .k-multiselect-wrap.k-state-hover, .k-numerictextbox .k-state-hover {
+  border-color: rgb(33, 150, 243);
+  color: #656565;
+  background-color: #fff;
+}
+ .k-dropdown, .cost-center .k-dropdown {
+  width: 100% !important;
+}
+
+
+.action-base {
+  position: absolute;
+  bottom: 0px;
+  height: 3.5rem;
+  width: 98%;
+  border-top: 1px solid #e0dcdc;
+  padding-top: 6px;
+  right: 0.5rem;
+  left: 11px;
+  background-color: white;
+  margin-top: 0;
+  padding-bottom: 5px;
+  z-index: 1000;
+  display: inline-flex;
+}
+.form-panel {
+  max-height: 46rem;
+  display: flex;
+  /* position: absolute; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-right: -5px;
+}
+.form-paper{
+  overflow: hidden !important;
+  max-height: 49rem;
+  min-height: 49rem;
+}
+@media (max-height:900px){
+  .form-panel {
+    max-height: 40rem;
+    display: flex;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    margin-right: -5px;
+  }
+  .form-paper{
+    overflow-y: hidden !important;
+    max-height: 41rem;
+  }
+}
+@media (max-width:1711px){
+  .k-rtl .k-textbox-container>.k-label, .k-rtl .k-textbox-container.k-state-focused>.k-label, .k-textbox-container[dir='rtl']>.k-label, .k-textbox-container[dir='rtl'].k-state-focused>.k-label {
+font-size:85%
+} 
+}
+@media (max-width:1577px){
+  .k-rtl .k-textbox-container>.k-label, .k-rtl .k-textbox-container.k-state-focused>.k-label, .k-textbox-container[dir='rtl']>.k-label, .k-textbox-container[dir='rtl'].k-state-focused>.k-label {
+font-size:72% !important
+} 
+}
+
+
+ 
+
+.action-base {
+  position: absolute;
+  bottom: 0px;
+  /* right: 296px; */
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 5px;
+  border-top: 1px solid #e0dcdc;
+  padding-top: 6px;
+  right: 0;
+  left: 11px;
+  background-color: #2d323ebd;
+  margin-top: 0;
+  padding-bottom: 5px;
+  z-index: 1000;
+  display: inline-flex;
+}
+.rightAlign{
+text-align:right
+}
+
+.margin-right-5{
+margin-right:5px !important;
+}
+
+.heightClosePanel {
+  height: 100%;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.heightOpenPanel {
+  height: calc(100% - 94px);
+}
+.cardHeader{ 
+  margin:1em;
+}
+.k-pager-wrap .k-link>.k-icon, .k-pager-wrap .k-state-selected>.k-icon {
+  vertical-align: middle;
+  transform: rotate(180deg);
+}
+.font-small{
+  font-size:9px;
+}
+
+.kadr{
+  background-color: white;
+  border-right: 2px solid green;
+  text-align: center;
+  font-size:14px;
+  padding: 5px;
+}
+.required-star{
+  font-size:14px;
+  color:rgb(238, 31, 31);
+  margin: 25px 1px 50px 4px;
+}
+.required-star-dropdown {
+  font-size: 14px;
+  color: rgb(238, 31, 31);
+  margin: 16px 4px 50px 4px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.k-autocomplete[dir='rtl'] .k-select, .k-rtl .k-autocomplete .k-select, .k-combobox[dir='rtl'] .k-select, .k-rtl .k-combobox .k-select, .k-dateinput[dir='rtl'] .k-select, .k-rtl .k-dateinput .k-select, .k-datepicker[dir='rtl'] .k-select, .k-rtl .k-datepicker .k-select, .k-datetimepicker[dir='rtl'] .k-select, .k-rtl .k-datetimepicker .k-select, .k-dropdown[dir='rtl'] .k-select, .k-rtl .k-dropdown .k-select, .k-multiselect[dir='rtl'] .k-select, .k-rtl .k-multiselect .k-select, .k-numerictextbox[dir='rtl'] .k-select, .k-rtl .k-numerictextbox .k-select, .k-maskedtextbox[dir='rtl'] .k-select, .k-rtl .k-maskedtextbox .k-select, .k-timepicker[dir='rtl'] .k-select, .k-rtl .k-timepicker .k-select, .k-dropdowntree[dir='rtl'] .k-select, .k-rtl .k-dropdowntree .k-select {
+  border-radius: 2px 0 0 2px;
+  border: none;
+}
+.k-combobox .k-input{
+  margin:5px
+}
+.k-autocomplete .k-input {
+  margin: 4px !important;
+  
+}
+.k-autocomplete{
+  
+  margin-top: 10px;
+}
+.red-color{
+  color:red 
+}
+
+.k-animation-container {
+  border-radius: 0 0 2px 2px;
+  z-index: 1000000000000000 !important;
+}
+
+.auto-height{
+  min-height: 50px !important;
+  height:  50px !important;
+  max-height:  50px !important
+}
+
+.k-grid td.k-state-selected, .k-grid tr.k-state-selected>td {
+  color: #656565;
+  background-color: rgba(88, 170, 255, 0.18);
+}
+
+.excel-report{
+  background-color: rgb(24, 163, 105);
+  padding: 5px 5px;
+  border-radius: 3px;
+  color: #FFF;
+  /* margin: .5px; */
+}
+.excel-report:hover{
+  background-color: rgb(30, 172, 112);
+}
+.excel-report:disabled{
+  background-color: #03dd9475;
+  cursor: default;
+} 
+.pdf-report{
+  background-color: rgb(238, 10, 10);
+  padding: 5px 5px;
+  border-radius: 3px;
+  color: #FFF;
+  /* margin: .5px; */
+}
+.pdf-report:hover{
+  background-color: rgb(167, 2, 2);
+}
+.pdf-report:disabled{
+  background-color: #dd030334;
+  cursor: default;
+} 
+.report-area{
+  float:left;
+  display: inline-blockl
+}
+.red-color{
+  color:"red" !important;
+}
+
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media print {
+ 
+}
+
+.k-grid td {
+  border-width: 0 0 0 1px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.k-list .k-item, .k-list-optionlabel {
+  -webkit-transition: none !important; 
+   transition: none !important;
+}
+/* .scroller::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scroller::-webkit-scrollbar-track-piece  {
+  background-color: #C2D2E4;
+}
+
+.scroller::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: rgb(60, 66, 82) !important;
+} */
+
+
+::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+    background-color: rgb(60, 66, 82) !important;
+}
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 6px !important;
+  background-color: rgb(60, 66, 82) !important;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(95, 95, 95) !important;
+}
+
+.background-blue-buy {
+  background-color: rgb(3, 155, 229);
+}
+.label-order {
+  font-size: 10px;
+  padding: 0 9px;
+  border-radius: 3px;
+}
+.background-red-sell {
+  background-color: #e6474c;
+}
+.background-gray-sell{
+  background-color: #f1f1f1 !important
+}
+
+.table-header{
+  margin:0 !important
+}
+.table-header tr{
+  height:35px!important
+}
+.disable-background{
+  position: absolute;
+   width: 100%;
+    height: 100%;
+     top: 0;
+      left: 0;
+       background-color: #ffffffd1 ;
+       z-index: 9999;
+}
+.enable-table{
+  position: absolute; 
+  width: 100%;
+   height: '100%';
+    top: 0;
+    left: 0;
+     background-color: rgba(255, 255, 255, 0);
+     z-index: 9999
+}
+
+.table-row tr{
+  height: 35px
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.fade-in{
+  -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .5s; /* Firefox < 16 */
+   -ms-animation: fadein .5s; /* Internet Explorer */
+    -o-animation: fadein .5s; /* Opera < 12.1 */
+}
+
+.k-rtl{
+  direction: rtl !important;
+}
+.advance-search-button {
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  z-index: 1;
+}
+.border-slate-300 {
+  border-color: #90A4AE;
+}
+.text-slate-300, .text-slate-300:hover, .text-slate-300:focus {
+  color: #90A4AE !important;
+}
+
+.icon-object {
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    display: inline-block;
+}

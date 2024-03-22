@@ -1,0 +1,8 @@
+.managed-customer-contact .height-search{
+    height: 125px;
+    overflow: inherit;
+}
+.managed-customer-contact .height-open-grid{
+    height: calc(100% - 125px);
+    overflow: inherit;
+}

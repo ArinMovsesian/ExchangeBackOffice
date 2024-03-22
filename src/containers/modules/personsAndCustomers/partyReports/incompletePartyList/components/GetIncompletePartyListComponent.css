@@ -1,0 +1,8 @@
+.inCompletePartyList .height-search{
+    height: 195px;
+    overflow: inherit;
+}
+.inCompletePartyList .height-open-grid{
+    height: calc(100% - 195px);
+    overflow: inherit;
+}

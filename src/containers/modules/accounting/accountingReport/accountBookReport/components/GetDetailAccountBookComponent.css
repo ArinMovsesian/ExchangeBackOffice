@@ -1,0 +1,66 @@
+/* 
+
+
+
+
+.detail-account-book-class .height-search{
+    height: 410px !important;
+
+   
+  }
+  .detail-account-book-class .height-content-grid{
+    height: calc(100% - 120px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .detail-account-book-class .height-content-grid .k-auto-scrollable{
+    height: calc(100% - 45px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .detail-account-book-class .height-open-grid{
+    height: calc(100% - 570px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .detail-account-book-class .height-open-grid .k-auto-scrollable{
+    height: calc(100% - 10px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+   
+  
+    .general-account-book{
+     color: #039be5;
+     cursor: pointer;
+     text-align: center;
+   }
+   #detail-account-book-class .k-grid-content ,
+   #detail-account-book-class .k-grid-footer{
+       font-size: 12px;
+   }
+   .detail-account-book-class .k-grid-footer tbody tr td div{
+    text-align: left !important;
+  } 
+   */
+
+   .detail-account-book-class .height-search{
+    height: 410px !important;
+    overflow:inherit !important
+}
+.detail-account-book-class .height-open-grid{
+    height: calc(100% - 495px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+#detail-account-book-grid .k-grid-content ,
+#detail-account-book-grid .k-grid-footer{
+    font-size: 12px;
+}
+.detail-account-book-grid .height-open-grid .k-auto-scrollable{
+  height: calc(100% - 1px) !important;
+
+}
+.detail-account-book-grid .height-content-grid{
+    height: calc(100% - 95px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.detail-account-book-class .height-content-grid{
+    height: calc(100% - 95px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

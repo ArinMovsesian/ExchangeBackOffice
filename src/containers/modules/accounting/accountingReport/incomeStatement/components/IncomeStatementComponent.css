@@ -1,0 +1,78 @@
+.height-search-balance-sheet{
+  height: 200px;
+  overflow: inherit;
+
+}
+.table-row{
+  height: 15px !important;
+
+}
+.income-height-for-open{
+  height: 200px !important;
+  overflow: auto !important;
+}
+.income-height-for-close{
+  height: 300px !important;
+  overflow: auto !important;
+}
+.income-paper-height-for-open{
+  height: 200px !important;
+}
+.income-paper-height-for-close{
+  height: 350px !important;
+  
+}
+.income-marginTop100{
+  margin-top: 190px !important
+  ;
+}
+.income-marginTop4{
+  margin-top: 0px !important;
+}
+.voucher-master .height-open-grid{
+  height: calc(100% - 240px);
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+
+
+.voucher-master .k-grid-header{
+  height: 32px;
+}
+.voucher-master .k-grid-footer{
+    height: 70px;
+}
+.voucher-master .k-grid-footer tbody tr td div:first-child{
+  margin-bottom: 15px;
+ 
+
+} 
+.voucher-master .k-grid-footer tbody tr td div{
+
+  text-align: left !important;
+
+} 
+.voucher-master .k-grid-content{
+  height: calc(100% - 200px) !important;
+}
+.disabled{
+ opacity: .4 !important;
+ cursor: not-allowed !important;
+}
+  /* height: calc(100% - 200px) !important; */
+
+#confirmDocumentation {
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  margin: 5px;
+}
+#confirmDocumentation:hover{
+  background-color: #006fff
+}
+#confirmDocumentation:disabled{
+  background-color: #1e90ff75;
+  cursor: default;
+} 

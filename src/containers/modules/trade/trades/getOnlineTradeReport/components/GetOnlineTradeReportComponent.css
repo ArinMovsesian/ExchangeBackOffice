@@ -1,0 +1,8 @@
+.GetOnlineTradeReport .height-search{
+    height: 130px;
+    overflow: inherit;
+}
+.GetOnlineTradeReport .height-open-grid{
+    height: calc(100% - 130px);
+    overflow: inherit;
+}

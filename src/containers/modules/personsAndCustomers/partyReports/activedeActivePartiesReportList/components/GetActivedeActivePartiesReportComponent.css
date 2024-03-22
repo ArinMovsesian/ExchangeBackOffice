@@ -1,0 +1,8 @@
+.activedeactiveparties .height-search{
+    height: 130px;
+    overflow: inherit;
+}
+.activedeactiveparties .height-open-grid{
+    height: calc(100% - 130px);
+    overflow: inherit;
+}

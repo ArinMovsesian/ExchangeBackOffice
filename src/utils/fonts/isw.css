@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'isw';
+    src: url('./IRANSans11.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'isw';
+} 

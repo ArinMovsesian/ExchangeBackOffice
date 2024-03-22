@@ -1,0 +1,28 @@
+.NewsPaperReportMonthlyVoucherType .height-search{
+    height: 260px;
+    overflow:inherit !important
+}
+.NewsPaperReportMonthlyVoucherType .height-open-grid{
+    height: calc(100% - 300px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.NewsPaperReportMonthlyVoucherType .k-grid-header{
+    height: 32px;
+}
+.NewsPaperReportMonthlyVoucherType .k-grid-footer{
+    height: 70px;
+}
+.NewsPaperReportMonthlyVoucherType .k-grid-footer tbody tr td div:first-child{
+    /*margin-bottom: 15px;*/
+}
+.NewsPaperReportMonthlyVoucherType .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.NewsPaperReportMonthlyVoucherType .k-grid-content{
+    height: calc(100% - 120px) !important;
+}
+

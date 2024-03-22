@@ -1,0 +1,16 @@
+.main-paper-container{
+    position:relative;
+    z-index: 100000 !important;
+    color:black;
+    height: 50.5rem !important;
+    overflow-x: hidden;
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s; /* Firefox < 16 */
+     -ms-animation: fadein 10s; /* Internet Explorer */
+      -o-animation: fadein 10s; /* Opera < 12.1 */
+ }
+
+ @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }

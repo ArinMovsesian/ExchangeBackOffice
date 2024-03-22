@@ -1,0 +1,29 @@
+.trades-list .height-search{
+    height: 335px;
+    overflow:inherit !important
+}
+.trades-list .height-open-grid{
+  height: calc(100% - 475px) !important;
+  overflow: inherit;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+.trades-list .k-grid-header{
+  height: 32px;
+}
+.trades-list .k-grid-footer{
+    height: 70px;
+}
+.trades-list .k-grid-footer tbody tr td div:first-child{
+    margin-bottom: 15px;
+}
+.trades-list .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.trades-list .k-grid-content{
+    height: calc(100% - 111px) !important;
+}
+.trades-list .height-content-grid{
+  height: calc(100% - 113px) !important;
+}

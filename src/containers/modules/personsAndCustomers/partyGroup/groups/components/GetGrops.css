@@ -1,0 +1,15 @@
+.groups .k-grid-content{
+    height: calc(100%);
+}
+.groups .k-grid-header {
+    height: 32px;
+}
+.groups .k-grid-content {
+    height: calc(100% - 32px) !important;
+}
+.list{
+    color: #009688;
+    cursor: pointer;
+    font-size: 15px; 
+    margin: 5px;
+}

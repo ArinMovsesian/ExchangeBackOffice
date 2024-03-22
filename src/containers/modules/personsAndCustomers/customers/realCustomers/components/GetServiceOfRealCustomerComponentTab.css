@@ -1,0 +1,43 @@
+.customersServiceListForRealCustomer .height-search{
+    height: 255px;
+    overflow:inherit !important
+}
+.customersServiceListForRealCustomer .height-open-grid{
+    height: calc(100% - 325px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.customersServiceListForRealCustomer .k-grid-header{
+    height: 32px;
+}
+.customersServiceListForRealCustomer .k-grid-footer{
+    height: 70px;
+}
+.customersServiceListForRealCustomer .k-grid-footer tbody tr td div:first-child{
+    /*margin-bottom: 15px;*/
+}
+.customersServiceListForRealCustomer .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.customersServiceListForRealCustomer .k-grid-content{
+    /* height: calc(100% - 135px) !important; */
+    height: 300px !important;
+}
+
+#editActivation {
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 5px;
+}
+#editActivation:hover{
+    background-color: #006fff
+}
+#editActivation:disabled{
+    background-color: #1e90ff75;
+    cursor: default;
+}

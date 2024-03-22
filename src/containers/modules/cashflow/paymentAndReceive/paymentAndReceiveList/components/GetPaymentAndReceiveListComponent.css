@@ -1,0 +1,30 @@
+
+
+.paymentAndReceiveList .height-search{
+    height: 245px;
+    overflow:inherit !important
+}
+.paymentAndReceiveList .height-open-grid{
+    height: calc(100% - 285px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.paymentAndReceiveList .k-grid-header{
+    height: 32px;
+}
+.paymentAndReceiveList .k-grid-footer{
+    height: 70px;
+}
+.paymentAndReceiveList .k-grid-footer tbody tr td div:first-child{
+    /*margin-bottom: 15px;*/
+}
+.paymentAndReceiveList .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.paymentAndReceiveList .k-grid-content{
+    height: calc(100% - 190px) !important;
+    /*overflow: scroll;*/
+}

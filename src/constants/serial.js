@@ -1,0 +1,59 @@
+const serials = [
+    {
+        id:1,
+        text: "الف"
+    },
+    {
+        id:2,
+        text:"ب"
+    },
+    {
+        id:3,
+        text:"ج"
+    },
+    {
+        id:4,
+        text:"د"
+    },
+    {
+        id:5,
+        text:"ر"
+    },
+    {
+        id:6,
+        text:"ط"
+    },
+    {
+        id:7,
+        text:"ع"
+    },
+    {
+        id:8,
+        text:"ل"
+    },
+    {
+        id:9,
+        text:"م"
+    },
+    {
+        id:10,
+        text:"یک"
+    },
+    {
+        id:11,
+        text:"دو"
+    },
+    {
+        id:12,
+        text:"سه"
+    },
+    {
+        id:13,
+        text:"چهار"
+    },
+    {
+        id:14,
+        text : "پنج"
+    }
+]
+export default serials;

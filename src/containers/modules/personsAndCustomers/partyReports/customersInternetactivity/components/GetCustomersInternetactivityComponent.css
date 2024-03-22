@@ -1,0 +1,8 @@
+.customersInternetactivity .height-search{
+    height: 190px;
+    overflow: inherit;
+}
+.customersInternetactivity .height-open-grid{
+    height: calc(100% - 190px);
+    overflow: inherit;
+}

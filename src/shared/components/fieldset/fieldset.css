@@ -1,0 +1,28 @@
+.fieldset{
+    margin-top: .7em;
+    margin-left: 0.8em;
+    /* border: 1px #80808042 solid; */
+    padding: .5rem;
+    border-radius: 11px;
+
+    
+}
+
+.legend{
+    background-color: white;
+    transform: translate(-32px,-1.5em);
+    display: -webkit-inline-box;
+    padding: 0.4em;
+}
+.marginRight{
+ margin-right: .7rem;
+}
+.fieldset-margin-right{
+    margin-top: .7em;
+    margin-left: 0.8em;
+    border: 1px #80808042 solid;
+    padding: .5rem;
+    border-radius: 11px;
+ margin-right: .7em;
+
+}

@@ -1,0 +1,416 @@
+@import "../../assets/font-icons/css/imrc-datetime-picker-icon.css";
+
+:local(.datetime-picker) * {
+  box-sizing: border-box;
+  direction: ltr !important;
+}
+
+:local(.datetime-picker) {
+  position: relative;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  width: 250px;
+  box-sizing: content-box;
+  z-index: 100;
+
+  :local(.calendar) {
+    :local(.calendar-nav) {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #efefef;
+      min-height: 32px;
+      padding: 4px;
+
+      button {
+        background: none;
+        border: 0;
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+
+        :local(.icon) {
+          font-size: 18px;
+        }
+
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+
+      :local(.current-date) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding: 0 8px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f0f0f0;
+        }
+
+        &:local(.disabled) {
+          cursor: default;
+        }
+      }
+    }
+
+    table {
+      display: block;
+      margin: 4px;
+
+      th,
+      td {
+        padding: 0;
+      }
+
+      thead {
+        display: block;
+        margin: 8px 0 3px;
+
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        th {
+          color: #ff9a19;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          font-weight: 400;
+        }
+      }
+
+      tbody {
+        display: block;
+
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+
+          td {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 32px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+
+            &:local(.prev),
+            &:local(.next),
+            &:local(.disabled) {
+              color: #dedede;
+
+              &:hover {
+                color: #c5c5c5;
+              }
+            }
+
+            &:local(.disabled) {
+              &:hover {
+                color: #dedede;
+                background-color: transparent;
+                cursor: not-allowed;
+              }
+            }
+
+            &:local(.now) {
+              color: #5cc4ef;
+              font-weight: 400;
+            }
+
+            &:local(.selected) {
+              background-color: #5cc4ef;
+              color: #fff;
+              font-weight: 400;
+
+              &:hover {
+                background-color: darken(#5cc4ef, 2%);
+                color: #fff;
+              }
+
+              &:local(.start) {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+              }
+
+              &:local(.end) {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+              }
+
+              &:local(.start):local(.end) {
+                border-radius: 4px;
+              }
+            }
+
+            &:local(.between) {
+              background-color: lighten(#5cc4ef, 33%);
+              border-radius: 0;
+            }
+          }
+        }
+      }
+    }
+
+    :local(.calendar-days) table tbody tr td {
+      width: calc(100% / 7);
+    }
+
+    :local(.calendar-months) table tbody tr td {
+      width: calc(100% / 3);
+      height: 40px;
+    }
+
+    :local(.calendar-years) table tbody tr td {
+      width: calc(100% / 4);
+      height: 60px;
+    }
+  }
+
+  :local(.time) {
+    border-top: 1px solid #efefef;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    :local(.show-time) {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      font-size: 14px;
+      text-align: center;
+      margin: 0 0 0 10px;
+
+      %time-content {
+        line-height: 1;
+      }
+
+      :local(.text) {
+        @extend %time-content;
+        font-size: 19px;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        position: relative;
+        z-index: 1;
+      }
+
+      :local(.separater) {
+        @extend %time-content;
+        margin: 0 2px 3px;
+        padding: 5px 0 0 0;
+      }
+    }
+
+    :local(.sliders) {
+      flex: 0 1 153px;
+      margin-right: 10px;
+      max-width: 153px;
+
+      :local(.slider-text) {
+        display: none;
+      }
+
+      :local(.slider) {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        height: 17px;
+        background-image: linear-gradient(to right, #dedede, #dedede);
+        background-position: 0 50%;
+        background-size: 100% 1px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+        :local(.handle) {
+          width: 12px;
+          height: 12px;
+          background-color: #fff;
+          border: 1px solid #dedede;
+          border-radius: 3px;
+          cursor: pointer;
+
+          &:hover {
+            border-color: #b8b8b8;
+          }
+
+          &:focus,
+          &:active {
+            background-color: #5cc4ef;
+            border-color: #5cc4ef;
+          }
+        }
+      }
+    }
+  }
+
+  :local(.shortcuts-bar) {
+    border-bottom: 1px solid #efefef;
+    padding: 8px;
+
+    :local(.btn) {
+      border: 0;
+      background: none;
+      cursor: pointer;
+      border-radius: 2px;
+      padding: 2px 4px;
+      outline: none;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+
+      &:last-child {
+        float: right;
+      }
+
+      &:not(:first-child) {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+:local(.datetime-range-picker) {
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: content-box;
+  z-index: 100;
+}
+
+:local(.datetime-trigger) {
+  position: relative;
+
+  :local(.datetime-picker) {
+    position: absolute;
+    &:local(.pos-top) {
+      top: auto;
+      bottom: 100%;
+    }
+    &:local(.pos-top):local(.datetime-picker-popup):before {
+      top: auto;
+      bottom: -6px;
+      left: 10px;
+      right: auto;
+      border-bottom: 1px solid #dbdbdb;
+      border-left: 1px solid #dbdbdb;
+    }
+
+    &:local(.pos-bottom) {
+      top: 100%;
+      bottom: auto;
+    }
+    &:local(.pos-bottom):local(.datetime-picker-popup):before {
+      top: -6px;
+      bottom: auto;
+      left: 10px;
+      right: auto;
+      border-top: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+    }
+  }
+}
+
+:local(.datetime-range-trigger) {
+  position: relative;
+
+  :local(.datetime-range-picker) {
+    position: absolute;
+    &:local(.pos-top) {
+      top: auto;
+      bottom: 100%;
+    }
+    &:local(.pos-top):local(.datetime-range-picker-popup):before {
+      top: auto;
+      bottom: -6px;
+      left: 10px;
+      right: auto;
+      border-bottom: 1px solid #dbdbdb;
+      border-left: 1px solid #dbdbdb;
+    }
+
+    &:local(.pos-bottom) {
+      top: 100%;
+      bottom: auto;
+    }
+    &:local(.pos-bottom):local(.datetime-range-picker-popup):before {
+      top: -6px;
+      bottom: auto;
+      left: 10px;
+      right: auto;
+      border-top: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+    }
+  }
+}
+
+:local(.datetime-picker-popup),
+:local(.datetime-range-picker-popup) {
+  margin: 8px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    z-index: -1;
+    transform: rotate(315deg);
+  }
+}
+
+// (Font) ICONS
+:local(.icon):before,
+:local(.icon):before {
+  font-family: "imrc-datetime-picker-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:local(.icon-clock:before) {
+  content: "\e800";
+}
+:local(.icon-angle-left:before) {
+  content: "\f104";
+}
+:local(.icon-angle-right:before) {
+  content: "\f105";
+}
+:local(.icon-calendar-empty:before) {
+  content: "\f133";
+}

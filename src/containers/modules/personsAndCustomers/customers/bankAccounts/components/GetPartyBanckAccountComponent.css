@@ -1,0 +1,8 @@
+.party-bank-account-managed .height-search{
+    height: 125px;
+    overflow: inherit;
+}
+.party-bank-account-managed .height-open-grid{
+    height: calc(100% - 125px);
+    overflow: inherit;
+}

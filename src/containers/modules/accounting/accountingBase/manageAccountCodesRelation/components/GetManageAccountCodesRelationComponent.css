@@ -1,0 +1,8 @@
+.manage-account-codes-relation .height-search{
+    height: 118px;
+    overflow: inherit;
+}
+.manage-account-codes-relation .height-open-grid{
+    height: calc(100% - 118px);
+    overflow: inherit;
+}

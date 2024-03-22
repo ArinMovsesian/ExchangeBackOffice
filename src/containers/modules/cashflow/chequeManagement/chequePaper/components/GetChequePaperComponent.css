@@ -1,0 +1,8 @@
+.chequePaper .height-search{
+    height: 190px !important;
+    overflow: inherit;
+}
+.chequePaper .height-open-grid{
+    height: calc(100% - 190px) !important;
+    overflow: inherit;
+}

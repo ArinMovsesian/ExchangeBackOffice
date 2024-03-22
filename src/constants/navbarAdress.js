@@ -1,0 +1,1 @@
+export const changePassword="/main/resource/profile/changePassword";

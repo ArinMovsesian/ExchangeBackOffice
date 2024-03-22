@@ -1,0 +1,107 @@
+/* .liquidity-report-list .height-search{
+  height: 130px !important;   
+}
+.liquidity-report-list  .height-content-grid{
+  height: calc(100% - 120px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+}
+.liquidity-report-list .height-content-grid .k-auto-scrollable{
+  height: calc(100% - 45px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+}
+.liquidity-report-list .height-open-grid{
+  height: calc(100% - 290px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+}
+.liquidity-report-list .height-open-grid .k-auto-scrollable{
+  height: calc(100% - 10px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+}
+ 
+ .liquidity-excel{
+   color: green;
+   cursor: pointer;
+   text-align: center;
+ }
+ .liquidity-pdf{
+  color: red;
+  cursor: pointer;
+  text-align: center;
+}
+ #liquidity-report-list .k-grid-content ,
+ #liquidity-report-list .k-grid-footer{
+     font-size: 12px;
+ }
+ .liquidity-report-list .k-grid-footer tbody tr td div{
+  text-align: left !important;
+} 
+.liquidity-report-list .k-grid-header ,
+.liquidity-report-list .k-grid-footer{
+  height: 32px;
+}
+
+
+
+
+.liquidity-excel{
+  color: green;
+  cursor: pointer;
+  text-align: center;
+}
+.liquidity-pdf{
+ color: red;
+ cursor: pointer;
+ text-align: center;
+}
+#liquidity-report-list .k-grid-content ,
+#liquidity-report-list .k-grid-footer{
+    font-size: 12px;
+}
+.liquidity-report-list .k-grid-footer tbody tr td div{
+ text-align: left !important;
+} 
+.liquidity-report-list .k-grid-header ,
+.liquidity-report-list .k-grid-footer{
+ height: 32px;
+} */
+
+
+
+.liquidity-report-list .height-search{
+  height: 126px !important;
+  overflow:inherit !important
+}
+.liquidity-report-list .height-open-grid{
+  height: calc(100% - 295px) !important;
+  overflow: inherit;
+
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.liquidity-report-list .k-grid-header ,
+.liquidity-report-list .k-grid-footer{
+  height: 32px;
+}
+.liquidity-report-list .height-content-grid{
+  height: calc(100% - 126px) !important;
+}
+.liquidity-report-list .height-open-grid .k-auto-scrollable{
+  height: calc(100% - 1px) !important;
+
+}
+ .liquidity-excel{
+   color: green;
+   cursor: pointer;
+   text-align: center;
+ }
+ .liquidity-pdf{
+  color: red;
+  cursor: pointer;
+  text-align: center;
+}
+ #liquidity-report-list .k-grid-content ,
+ #liquidity-report-list .k-grid-footer{
+     font-size: 12px;
+ }
+ .liquidity-report-list .k-grid-footer tbody tr td div{
+  text-align: left !important;
+} 

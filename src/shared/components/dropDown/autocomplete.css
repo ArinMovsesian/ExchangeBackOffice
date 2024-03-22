@@ -1,0 +1,47 @@
+.k-autocomplete{
+  
+    margin-top: 10px;
+}
+.label-auto-complete{
+    transform: translate(-10px, -11px) scale(0.75);
+    z-index: 10000000;
+    /* position: absolute; */
+    padding: 2px;
+    background-color: white;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    /* margin-top: -39px; */
+    /* top: 0; */
+    margin-top: -51px;
+    width: 0;
+    height: 0;
+    padding: inherit;
+}
+.k-multiselect-wrap .k-searchbar {
+    float: right !important;
+    width: auto;
+}
+.k-autocomplete .k-clear-value, .k-dropdown-wrap .k-clear-value, .k-multiselect-wrap .k-clear-value {
+    height: 20px;
+    line-height: 20px;
+    outline: 0;
+    cursor: pointer;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: .5;
+    position: absolute;
+    top: 9px !important;
+    left: 25px !important;
+    right:auto !important;
+
+}
+
+.k-multiselect-wrap .k-input {
+    float: right !important;
+}
+.k-multiselect-wrap li.k-button {
+    float: right !important;
+}

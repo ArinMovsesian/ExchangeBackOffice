@@ -1,0 +1,77 @@
+/* .detail-ledger-balance .height-search{
+  height: 335px !important;
+}
+.detail-ledger-balance .height-open-grid{
+  height: calc(100% - 385px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.detail-ledger-balance .height-open-grid .k-auto-scrollable{
+  height: calc(100% - 180px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.detail-ledger-balance .height-content-grid{
+  height: calc(100% - 140px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+/* .detail-ledger-balance .height-content-grid .k-auto-scrollable{
+  height: calc(100% - 90px) !important;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+} */
+
+.detail-account-book{
+  color: #039be5;
+  cursor: pointer;
+  text-align: center;
+}
+#detail-ledger-balance .k-grid-content ,
+#detail-ledger-balance .k-grid-footer{
+    font-size: 12px;
+} 
+
+
+.detail-ledger-balance .height-search{
+  height: 345px !important;
+  overflow:inherit !important
+}
+.detail-ledger-balance .height-open-grid{
+  height: calc(100% - 435px) !important;
+  overflow: inherit;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.detail-ledger-balance .k-grid-header {
+  height: 32px;
+}
+.detail-ledger-balance .k-grid-footer{
+  height: 70px;
+}
+.detail-ledger-balance .k-grid-footer tbody tr td div:first-child{
+  margin-bottom: 15px;
+}
+.detail-ledger-balance .height-content-grid{
+  height: calc(100% - 90px) !important;
+}
+.detail-ledger-balance .k-grid-footer tbody tr td div{
+  text-align: left;
+}
+.detail-ledger-balance .k-grid-footer tbody tr td:first-child div{
+  text-align: right !important;
+}
+.detail-account-book{
+  color: #039be5;
+  cursor: pointer;
+  text-align: center;
+}
+#detail-ledger-balance .k-grid-content ,
+#detail-ledger-balance .k-grid-footer{
+    font-size: 12px;
+}
+ 
+/* .detail-ledger-balance .height-search-extra{
+  height: 315px !important;
+  overflow:inherit !important
+}
+.detail-ledger-balance .height-open-grid-extra{
+  height: calc(100% - 315px) !important;
+  overflow: inherit;
+} */

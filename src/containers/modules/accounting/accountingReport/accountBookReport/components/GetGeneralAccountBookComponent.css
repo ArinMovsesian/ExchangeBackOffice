@@ -1,0 +1,75 @@
+/* 
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+.general-account-book  .height-search{
+    height: 355px !important;
+
+   
+  }
+  .general-account-book .height-content-grid{
+    height: calc(100% - 120px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .general-account-book .height-content-grid .k-auto-scrollable{
+    height: calc(100% - 45px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .general-account-book .height-open-grid{
+    height: calc(100% - 510px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .general-account-book .height-open-grid .k-auto-scrollable{
+    height: calc(100% - 10px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+   
+  
+    .general-account-book{
+     color: #039be5;
+     cursor: pointer;
+     text-align: center;
+   }
+   #general-account-book .k-grid-content ,
+   #general-account-book .detail-account-book
+   #general-account-book .k-grid-footer{
+       font-size: 12px;
+   }
+   .general-account-book .k-grid-footer tbody tr td div{
+    text-align: left !important;
+  } 
+   */
+
+   .general-account-book .height-search{
+    height: 363px !important;
+    overflow:inherit !important
+}
+.general-account-book .height-open-grid{
+    height: calc(100% - 450px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.general-account-book .height-content-grid{
+    height: calc(100% - 95px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+#general-account-book .k-grid-content ,
+#general-account-book .k-grid-footer,
+#general-account-book .detail-account-book {
+    font-size: 12px;
+}
+.subsidiary-account-book .height-open-grid .k-auto-scrollable{
+    height: calc(100% - 1px) !important;
+  
+  }

@@ -1,0 +1,8 @@
+.customer-relation .height-search{
+    height: 185px;
+    overflow: inherit;
+}
+.customer-relation .height-open-grid{
+    height: calc(100% - 130px);
+    overflow: inherit;
+}

@@ -1,0 +1,8 @@
+.customer-trading .height-search{
+    height: 125px;
+    overflow: inherit;
+}
+.customer-trading .height-open-grid{
+    height: calc(100% - 125px);
+    overflow: inherit;
+}

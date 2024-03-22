@@ -1,0 +1,8 @@
+.trade-number .height-search{
+    height: 133px;
+    overflow:inherit !important
+}
+.trade-number .height-open-grid{
+    height: calc(100% - 133px) !important;
+    overflow: inherit;
+  }

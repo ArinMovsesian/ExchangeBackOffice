@@ -1,0 +1,8 @@
+.main-paper-container-server{
+    position:relative;
+    z-index: 2;
+    color:black;
+    height: 48rem !important;
+    overflow-x: hidden;
+
+ }

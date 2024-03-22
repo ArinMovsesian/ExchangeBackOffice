@@ -1,0 +1,10 @@
+.customer-role .height-search{
+    height: 295px;
+    overflow: inherit;
+}
+
+
+.customer-role .height-open-grid{
+    height: calc(100% - 295px);
+    overflow: inherit;
+}

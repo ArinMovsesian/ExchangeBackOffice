@@ -1,0 +1,71 @@
+.not-entered-orders .height-search{
+    height: 360px;
+    overflow:inherit !important
+}
+.not-entered-orders .height-open-grid{
+    height: calc(100% - 400px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  }
+  .not-entered-orders .k-grid-header{
+    height: 32px;
+  }
+  .not-entered-orders .k-grid-footer{
+      height: 70px;
+  }
+  .not-entered-orders .k-grid-footer tbody tr td div:first-child{
+    margin-bottom: 15px;
+} 
+.not-entered-orders .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+  .not-entered-orders .k-grid-content{
+    height: calc(100% - 175px) !important;
+}
+
+
+#assignToActive {
+  background-color: #079169 !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  margin: 5px;
+}
+#assignToActive:hover{
+  background-color: #05664a !important
+}
+#assignToActive:disabled{
+  background-color: #07916a38 !important;
+  cursor: default;
+} 
+#assignToDone {
+  background-color: #079169 !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  margin: 5px;
+}
+#assignToDone:hover{
+  background-color: #05664a !important
+}
+#assignToDone:disabled{
+  background-color: #07916a38 !important;
+  cursor: default;
+} 
+
+#backToWaitingList {
+  background-color: #fa9a00 !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFF;
+  margin: 5px;
+  }
+  #backToWaitingList:hover{
+  background-color: #f6a000 !important
+  }
+  #backToWaitingList:disabled{
+  background-color: #917c0759 !important;
+  cursor: default;
+  } 

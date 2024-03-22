@@ -1,0 +1,41 @@
+  .subsidiary-ledger-balance .height-search{
+    height: 345px !important;
+   
+  }
+
+
+
+
+  .subsidiary-ledger-balance .height-content-grid{
+    height: calc(100% - 45px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .subsidiary-ledger-balance .height-content-grid .k-auto-scrollable{
+    height: calc(100% - 180px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+  .subsidiary-ledger-balance .height-open-grid{
+    height: calc(100% - 390px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .subsidiary-ledger-balance .height-open-grid .k-auto-scrollable{
+    height: calc(100% - 180px) !important;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;  
+  }
+
+
+
+ 
+.subsidiary-account-book{
+    color: #039be5;
+    cursor: pointer;
+    text-align: center;
+}
+#subsidiary-ledger-balance .k-grid-content ,
+#subsidiary-ledger-balance .k-grid-footer{
+    font-size: 12px;
+}
+.subsidiary-ledger-balance .k-grid-footer tbody tr td div{
+text-align: left !important;
+} 
+ 

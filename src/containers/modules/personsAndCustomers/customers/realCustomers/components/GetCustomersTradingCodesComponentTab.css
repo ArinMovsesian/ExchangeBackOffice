@@ -1,0 +1,15 @@
+.customer-trading-tab .height-search{
+    height: 125px;
+    overflow: inherit;
+}
+/* 
+.customer-trading-tab .height-search .heightClosePanel{
+    height: 80% !important;
+} */ 
+.customer-trading-tab .height-open-grid{
+    height: calc(100% - 200px) !important;
+    overflow: inherit;
+}
+.customer-trading-tab .heightClosePanel{
+    height: 90%;
+}

@@ -1,0 +1,8 @@
+.chequeBook .height-search{
+    height: 180px;
+    overflow: inherit;
+}
+.chequeBook .height-open-grid{
+    height: calc(100% - 180px);
+    overflow: inherit;
+}

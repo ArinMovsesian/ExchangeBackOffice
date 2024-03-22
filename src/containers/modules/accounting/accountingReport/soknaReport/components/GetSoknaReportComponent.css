@@ -1,0 +1,28 @@
+
+
+.soknaReport .height-search{
+    height: 190px;
+    overflow:inherit !important
+}
+.soknaReport .height-open-grid{
+    height: calc(100% - 230px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.soknaReport .k-grid-header{
+    height: 32px;
+}
+.soknaReport .k-grid-footer{
+    height: 70px;
+}
+
+.soknaReport .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.soknaReport .k-grid-content{
+    height: calc(100% - 150px) !important;
+    /*overflow: scroll;*/
+}

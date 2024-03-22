@@ -1,0 +1,28 @@
+.receiveList .height-search{
+    height: 245px;
+    overflow:inherit !important
+}
+.receiveList .height-open-grid{
+    height: calc(100% - 285px) !important;
+    overflow: inherit;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+.receiveList .k-grid-header{
+    height: 32px;
+}
+.receiveList .k-grid-footer{
+    height: 70px;
+}
+.receiveList .k-grid-footer tbody tr td div:first-child{
+    /*margin-bottom: 15px;*/
+}
+.receiveList .k-grid-footer tbody tr td div{
+    text-align: left !important;
+
+}
+.receiveList .k-grid-content{
+    height: calc(100% - 210px) !important;
+}
+

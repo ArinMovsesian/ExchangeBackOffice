@@ -1,0 +1,39 @@
+.customer-account-book .height-search{
+  height: 133px ;
+  overflow:inherit;
+}
+.customer-account-book .height-open-grid{
+  height: calc(100% - 173px);
+  overflow: inherit;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.customer-account-book .k-grid-header {
+  height: 32px;
+}
+.customer-account-book .k-grid-footer{
+  height: 70px;
+}
+.customer-account-book .k-grid-footer tbody tr td div:first-child{
+  margin-bottom: 15px;
+}
+.customer-account-book .k-grid-content{
+  height: calc(100% - 70px) !important;
+}
+.customer-account-book .k-grid-footer tbody tr td div{
+  
+  text-align: left !important;
+
+}
+.detail-account-book{
+  color: #039be5;
+  cursor: pointer;
+  text-align: center;
+} 
+/* .detail-ledger-balance .height-search-extra{
+  height: 315px !important;
+  overflow:inherit !important
+}
+.detail-ledger-balance .height-open-grid-extra{
+  height: calc(100% - 315px) !important;
+  overflow: inherit;
+} */

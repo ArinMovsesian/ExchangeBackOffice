@@ -1,0 +1,32 @@
+.voucher-detail .height-detail{
+    height: 150px !important;
+    overflow: inherit
+}
+
+
+.voucher-detail .height-open-grid{
+    height: calc(100% - 265px) !important;
+    transition: height 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.voucher-detail .k-grid-header{
+    height: 32px;
+  }
+  .voucher-detail .k-grid-footer{
+      height: 70px;
+  }
+  .voucher-detail .k-grid-footer tbody tr td div:first-child{
+    margin-bottom: 15px;
+} 
+.voucher-detail .k-grid-footer tbody tr td div{
+  
+    text-align: left !important;
+
+} 
+  .voucher-detail .k-grid-content{
+    height: calc(100% - 136px) !important;
+}
+.voucher-detail .height-content-grid{
+    height: calc(100% - 85px) !important;
+
+}
